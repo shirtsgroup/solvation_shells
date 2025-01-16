@@ -1,0 +1,471 @@
+Ion parameters of all ions for TIP4P-FB water model (converted from frcmod style) from Li/Merz groups
+Li   Li  	3	6.94000000	0.00000000	A	2.20942882e-01	8.76912008e-03
+Na   Na  	11	22.99000000	0.00000000	A	2.58004269e-01	1.04581130e-01
+K    K   	19	39.10000000	0.00000000	A	3.00232868e-01	5.36525617e-01
+Rb   Rb  	37	85.47000000	0.00000000	A	3.19832640e-01	8.74757415e-01
+Cs   Cs  	55	132.91000000	0.00000000	A	3.47450500e-01	1.43933872e+00
+Tl   Tl  	81	204.38000000	0.00000000	A	2.65131459e-01	1.47990674e-01
+Cu   Cu  	29	63.55000000	0.00000000	A	2.10430277e-01	3.76430296e-03
+Ag   Ag  	47	107.87000000	0.00000000	A	2.34484543e-01	2.52105665e-02
+F    F   	9	19.00000000	0.00000000	A	3.28741627e-01	1.04926352e+00
+Cl   Cl  	17	35.45000000	0.00000000	A	4.12129747e-01	2.70772430e+00
+Br   Br  	35	79.90000000	0.00000000	A	4.37253091e-01	3.07753384e+00
+I    I   	53	126.90000000	0.00000000	A	4.99616001e-01	3.67637390e+00
+Be   Be  	4	9.01000000	0.00000000	A	1.64638083e-01	5.94128000e-06
+Ni   Ni  	28	58.69000000	0.00000000	A	2.16132029e-01	5.72994616e-03
+Pt   Pt  	78	195.08000000	0.00000000	A	2.18982905e-01	7.39860904e-03
+Zn   Zn  	30	65.40000000	0.00000000	A	2.19873804e-01	7.99738128e-03
+Co   Co  	27	58.93000000	0.00000000	A	2.27535533e-01	1.50312292e-02
+Pd   Pd  	46	106.42000000	0.00000000	A	2.28426431e-01	1.61068938e-02
+Cr   Cr  	24	52.00000000	0.00000000	A	2.39651755e-01	3.59004773e-02
+Fe   Fe  	26	55.85000000	0.00000000	A	2.50164360e-01	6.84605326e-02
+Mg   Mg  	12	24.30500000	0.00000000	A	2.39117216e-01	3.46516788e-02
+V    V   	23	50.94000000	0.00000000	A	2.39651755e-01	3.59004773e-02
+Mn   Mn  	25	54.94000000	0.00000000	A	2.48382563e-01	6.17667602e-02
+Hg   Hg  	80	200.59000000	0.00000000	A	2.48382563e-01	6.17667602e-02
+Cd   Cd  	48	112.41000000	0.00000000	A	2.49095282e-01	6.43815929e-02
+Yb   Yb  	70	173.05000000	0.00000000	A	2.88829364e-01	3.77363244e-01
+Ca   Ca  	20	40.08000000	0.00000000	A	2.89898443e-01	3.90963294e-01
+Sn   Sn  	50	118.71000000	0.00000000	A	2.93105678e-01	4.33431815e-01
+Pb   Pb  	82	207.20000000	0.00000000	A	3.07894597e-01	6.59943533e-01
+Eu   Eu  	64	151.96000000	0.00000000	A	2.95422015e-01	4.65638322e-01
+Sr   Sr  	38	87.62000000	0.00000000	A	3.18763561e-01	8.54545641e-01
+Sm   Sm  	62	150.36000000	0.00000000	A	2.93996577e-01	4.45668090e-01
+Ba   Ba  	56	137.33000000	0.00000000	A	3.54934049e-01	1.59899451e+00
+Ra   Ra  	88	226.03000000	0.00000000	A	3.54934049e-01	1.59899451e+00
+Al   Al  	13	26.98000000	0.00000000	A	2.25753735e-01	1.30567996e-02
+In   In  	49	114.82000000	0.00000000	A	2.57113370e-01	9.98932510e-02
+Y    Y   	39	88.91000000	0.00000000	A	2.82058534e-01	2.97781891e-01
+La   La  	57	138.91000000	0.00000000	A	3.05578260e-01	6.21331113e-01
+Ce   Ce  	58	140.12000000	0.00000000	A	3.01480126e-01	5.55759297e-01
+Pr   Pr  	59	140.91000000	0.00000000	A	3.08429136e-01	6.69006956e-01
+Nd   Nd  	60	144.24000000	0.00000000	A	2.98451071e-01	5.09652956e-01
+Gd   Gd  	64	157.25000000	0.00000000	A	2.86513028e-01	3.48860288e-01
+Tb   Tb  	65	158.93000000	0.00000000	A	2.88116645e-01	3.68452287e-01
+Dy   Dy  	66	162.50000000	0.00000000	A	2.83662152e-01	3.15602258e-01
+Er   Er  	68	167.26000000	0.00000000	A	2.82058534e-01	2.97781891e-01
+Tm   Tm  	69	168.93000000	0.00000000	A	2.82058534e-01	2.97781891e-01
+Lu   Lu  	71	174.97000000	0.00000000	A	2.79207658e-01	2.67678889e-01
+Hf   Hf  	72	178.49000000	0.00000000	A	2.61389684e-01	1.23860751e-01
+Zr   Zr  	40	91.22000000	0.00000000	A	2.66378717e-01	1.56719335e-01
+U    U   	92	238.03000000	0.00000000	A	3.01480126e-01	5.55759297e-01
+Pu   Pu  	94	244.06000000	0.00000000	A	2.97025633e-01	4.88675426e-01
+Th   Th  	90	232.04000000	0.00000000	A	3.04509182e-01	6.03881448e-01
+
+
+[ moleculetype ]
+; molname	nrexcl
+LI		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Li	1	LI	Li	1	1	6.94
+
+[ moleculetype ]
+; molname	nrexcl
+NA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Na	1	NA	Na	1	1	22.99
+
+[ moleculetype ]
+; molname	nrexcl
+K		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	K	1	K	K	1	1	39.1
+
+[ moleculetype ]
+; molname	nrexcl
+RB		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Rb	1	RB	Rb	1	1	85.47
+
+[ moleculetype ]
+; molname	nrexcl
+CS		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cs	1	CS	Cs	1	1	132.91
+
+[ moleculetype ]
+; molname	nrexcl
+TL		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Tl	1	TL	Tl	1	3	204.38
+
+[ moleculetype ]
+; molname	nrexcl
+CU		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cu	1	CU	Cu	1	2	63.55
+
+[ moleculetype ]
+; molname	nrexcl
+AG		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ag	1	AG	Ag	1	2	107.87
+
+[ moleculetype ]
+; molname	nrexcl
+F		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	F	1	F	F	1	-1	19.0
+
+[ moleculetype ]
+; molname	nrexcl
+CL		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cl	1	CL	Cl	1	-1	35.45
+
+[ moleculetype ]
+; molname	nrexcl
+BR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Br	1	BR	Br	1	-1	79.9
+
+[ moleculetype ]
+; molname	nrexcl
+I		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	I	1	I	I	1	-1	126.9
+
+[ moleculetype ]
+; molname	nrexcl
+BE		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Be	1	BE	Be	1	2	9.01
+
+[ moleculetype ]
+; molname	nrexcl
+NI		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ni	1	NI	Ni	1	2	58.69
+
+[ moleculetype ]
+; molname	nrexcl
+PT		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Pt	1	PT	Pt	1	2	195.08
+
+[ moleculetype ]
+; molname	nrexcl
+ZN		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Zn	1	ZN	Zn	1	2	65.4
+
+[ moleculetype ]
+; molname	nrexcl
+CO		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Co	1	CO	Co	1	2	58.93
+
+[ moleculetype ]
+; molname	nrexcl
+PD		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Pd	1	PD	Pd	1	2	106.42
+
+[ moleculetype ]
+; molname	nrexcl
+CR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cr	1	CR	Cr	1	3	52.0
+
+[ moleculetype ]
+; molname	nrexcl
+FE		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Fe	1	FE	Fe	1	3	55.85
+
+[ moleculetype ]
+; molname	nrexcl
+MG		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Mg	1	MG	Mg	1	2	24.305
+
+[ moleculetype ]
+; molname	nrexcl
+V		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	V	1	V	V	1	2	50.94
+
+[ moleculetype ]
+; molname	nrexcl
+MN		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Mn	1	MN	Mn	1	2	54.94
+
+[ moleculetype ]
+; molname	nrexcl
+HG		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Hg	1	HG	Hg	1	2	200.59
+
+[ moleculetype ]
+; molname	nrexcl
+CD		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cd	1	CD	Cd	1	2	112.41
+
+[ moleculetype ]
+; molname	nrexcl
+YB		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Yb	1	YB	Yb	1	2	173.05
+
+[ moleculetype ]
+; molname	nrexcl
+CA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ca	1	CA	Ca	1	2	40.08
+
+[ moleculetype ]
+; molname	nrexcl
+SN		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Sn	1	SN	Sn	1	2	118.71
+
+[ moleculetype ]
+; molname	nrexcl
+PB		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Pb	1	PB	Pb	1	2	207.2
+
+[ moleculetype ]
+; molname	nrexcl
+EU		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Eu	1	EU	Eu	1	3	151.96
+
+[ moleculetype ]
+; molname	nrexcl
+SR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Sr	1	SR	Sr	1	2	87.62
+
+[ moleculetype ]
+; molname	nrexcl
+SM		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Sm	1	SM	Sm	1	3	150.36
+
+[ moleculetype ]
+; molname	nrexcl
+BA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ba	1	BA	Ba	1	2	137.33
+
+[ moleculetype ]
+; molname	nrexcl
+RA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ra	1	RA	Ra	1	2	226.03
+
+[ moleculetype ]
+; molname	nrexcl
+AL		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Al	1	AL	Al	1	3	26.98
+
+[ moleculetype ]
+; molname	nrexcl
+IN		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	In	1	IN	In	1	3	114.82
+
+[ moleculetype ]
+; molname	nrexcl
+Y		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Y	1	Y	Y	1	3	88.91
+
+[ moleculetype ]
+; molname	nrexcl
+LA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	La	1	LA	La	1	3	138.91
+
+[ moleculetype ]
+; molname	nrexcl
+CE		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ce	1	CE	Ce	1	4	140.12
+
+[ moleculetype ]
+; molname	nrexcl
+PR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Pr	1	PR	Pr	1	3	140.91
+
+[ moleculetype ]
+; molname	nrexcl
+ND		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Nd	1	ND	Nd	1	3	144.24
+
+[ moleculetype ]
+; molname	nrexcl
+GD		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Gd	1	GD	Gd	1	3	157.25
+
+[ moleculetype ]
+; molname	nrexcl
+TB		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Tb	1	TB	Tb	1	3	158.93
+
+[ moleculetype ]
+; molname	nrexcl
+DY		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Dy	1	DY	Dy	1	3	162.5
+
+[ moleculetype ]
+; molname	nrexcl
+ER		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Er	1	ER	Er	1	3	167.26
+
+[ moleculetype ]
+; molname	nrexcl
+TM		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Tm	1	TM	Tm	1	3	168.93
+
+[ moleculetype ]
+; molname	nrexcl
+LU		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Lu	1	LU	Lu	1	3	174.97
+
+[ moleculetype ]
+; molname	nrexcl
+HF		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Hf	1	HF	Hf	1	4	178.49
+
+[ moleculetype ]
+; molname	nrexcl
+ZR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Zr	1	ZR	Zr	1	4	91.22
+
+[ moleculetype ]
+; molname	nrexcl
+U		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	U	1	U	U	1	4	238.03
+
+[ moleculetype ]
+; molname	nrexcl
+PU		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Pu	1	PU	Pu	1	4	244.06
+
+[ moleculetype ]
+; molname	nrexcl
+TH		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Th	1	TH	Th	1	4	232.04
+

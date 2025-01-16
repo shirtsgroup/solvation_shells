@@ -1,0 +1,17 @@
+integrator               = steep
+emstep                   = 0.001
+nsteps                   = -1
+
+nstxout                  = 100
+nstvout                  = 0
+nstfout                  = 0
+nstxout-compressed       = 0
+
+cutoff-scheme            = Verlet
+pbc                      = xyz
+
+coulombtype              = PME
+vdw_type                 = PME
+
+gen_vel                  = no
+DispCorr                 = EnerPres

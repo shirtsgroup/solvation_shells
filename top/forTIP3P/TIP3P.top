@@ -1,0 +1,18 @@
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;type, bondingtype, atomic_number, mass, charge, ptype, sigma, epsilon
+ OW		OW       8           16.0000  	0.00000   A     3.15061e-01   6.36386e-01
+ HW		HW       1            1.0080  	0.00000   A     0.00000e+00   0.00000e+00
+
+
+#include "TIP3P.itp"
+
+[ system ]
+water box
+
+[ molecules ]
+; Compound        nmols
+SOL              1000

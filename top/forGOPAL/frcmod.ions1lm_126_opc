@@ -1,0 +1,29 @@
+Sengupta et al ion parameters of monovalent ions for OPC water model (12-6 HFE set)
+MASS
+Li+  6.94
+Na+  22.99
+K+   39.10
+Rb+  85.47
+Cs+  132.91
+Tl+  204.38
+Cu+  63.55
+Ag+  107.87
+F-   19.00
+Cl-  35.45
+Br-  79.90
+I-   126.9
+
+NONBON
+Li+   1.242  0.00216058    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Na+   1.467  0.02960343    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol) 
+K+    1.702  0.13953816    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Rb+   1.818  0.22795460    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cs+   1.960  0.35308749    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Tl+   1.660  0.11250137	   HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cu+   1.180  0.00078213    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Ag+   1.316  0.00602547    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+F-    1.840  0.24650465    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cl-   2.360  0.67878870    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Br-   2.499  0.75971103    HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+I-    2.900  0.90300541	   HFE set for OPC water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+

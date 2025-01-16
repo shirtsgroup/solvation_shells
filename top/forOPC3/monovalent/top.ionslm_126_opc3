@@ -1,0 +1,111 @@
+Sengupta et al. ion parameters of monovalent ions for OPC3 water model (converted from frcmod style)
+Li   Li  	3	6.94000000	0.00000000	A	2.26288274e-01	1.36251960e-02
+Na   Na  	11	22.99000000	0.00000000	A	2.61746043e-01	1.26028774e-01
+K    K   	19	39.10000000	0.00000000	A	3.03440103e-01	5.86672238e-01
+Rb   Rb  	37	85.47000000	0.00000000	A	3.20723539e-01	8.91730690e-01
+Cs   Cs  	55	132.91000000	0.00000000	A	3.50123196e-01	1.49632371e+00
+Tl   Tl  	81	204.38000000	0.00000000	A	2.99698329e-01	5.28388699e-01
+Cu   Cu  	29	63.55000000	0.00000000	A	2.13993872e-01	4.69863200e-03
+Ag   Ag  	47	107.87000000	0.00000000	A	2.37869958e-01	3.18714108e-02
+F    F   	9	19.00000000	0.00000000	A	3.23930774e-01	9.53762046e-01
+Cl   Cl  	17	35.45000000	0.00000000	A	4.10882489e-01	2.68724396e+00
+Br   Br  	35	79.90000000	0.00000000	A	4.45627539e-01	3.18294026e+00
+I    I   	53	126.90000000	0.00000000	A	4.95339687e-01	3.64743606e+00
+
+
+[ moleculetype ]
+; molname	nrexcl
+LI		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Li	1	LI	Li	1	1	6.94
+
+[ moleculetype ]
+; molname	nrexcl
+NA		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Na	1	NA	Na	1	1	22.99
+
+[ moleculetype ]
+; molname	nrexcl
+K		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	K	1	K	K	1	1	39.1
+
+[ moleculetype ]
+; molname	nrexcl
+RB		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Rb	1	RB	Rb	1	1	85.47
+
+[ moleculetype ]
+; molname	nrexcl
+CS		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cs	1	CS	Cs	1	1	132.91
+
+[ moleculetype ]
+; molname	nrexcl
+TL		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Tl	1	TL	Tl	1	1	204.38
+
+[ moleculetype ]
+; molname	nrexcl
+CU		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cu	1	CU	Cu	1	1	63.55
+
+[ moleculetype ]
+; molname	nrexcl
+AG		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Ag	1	AG	Ag	1	1	107.87
+
+[ moleculetype ]
+; molname	nrexcl
+F		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	F	1	F	F	1	-1	19.0
+
+[ moleculetype ]
+; molname	nrexcl
+CL		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Cl	1	CL	Cl	1	-1	35.45
+
+[ moleculetype ]
+; molname	nrexcl
+BR		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	Br	1	BR	Br	1	-1	79.9
+
+[ moleculetype ]
+; molname	nrexcl
+I		1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1	I	1	I	I	1	-1	126.9
+

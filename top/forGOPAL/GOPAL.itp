@@ -1,0 +1,33 @@
+[ defaults ]
+1    2    yes    0.5    0.8333
+
+[ atomtypes ]
+OW            OW      0.0000  0.0000  A   3.16300e-01  8.20420e-01
+HW            HW      0.0000  0.0000  A   0.00000e+00  0.00000e+00
+MW            MW      0.0000  0.0000  A   0.00000e+00  0.00000e+00
+
+[ moleculetype ]
+; molname       nrexcl
+SOL             2
+
+[ atoms ]
+; id  at type     res nr  res name  at name  cg nr  charge    mass
+  1   OW          1       SOL       OW       1       0         16.00000
+  2   HW          1       SOL       HW1      1       0.633945   1.00800
+  3   HW          1       SOL       HW2      1       0.633945   1.00800
+  4   MW          1       SOL       MW       1      -1.267890   0.00000
+
+[ settles ]
+; i     funct   doh     dhh
+1       1       0.08945 0.1415785
+
+[ virtual_sites3 ]
+; Vsite from                    funct   a               b
+4       1       2       3       1       0.1389840     0.1389840
+
+
+[ exclusions ]
+1       2       3       4
+2       1       3       4
+3       1       2       4
+4       1       2       3

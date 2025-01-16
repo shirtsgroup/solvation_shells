@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -A chm230020p
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=16
+#SBATCH -t 03:00:00
+#SBATCH -p RM-shared
+#SBATCH -J 'unbiased_NaCl_0.2M'
+#SBATCH -o '%x.out'
+
+module load gcc
+module load openmpi/4.0.2-gcc8.3.1
+
+source /jet/home/schwinns/.bashrc
+source /jet/home/schwinns/pkgs/gromacs-2023.1/bin/GMXRC
+
+conda activate mda
+
+# solvate, equilibrate, and run production
+python solvate_ions.py --conc 0.2 --gro solution.gro --min ../../inputs/unbiased_MD/min.mdp --nvt ../../inputs/unbiased_MD/nvt.mdp --npt ../../inputs/unbiased_MD/npt.mdp --prod ../../inputs/unbiased_MD/prod.mdp --top solution.top --inp solution.inp -n 16

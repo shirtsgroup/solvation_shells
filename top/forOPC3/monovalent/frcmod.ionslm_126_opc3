@@ -1,0 +1,29 @@
+Sengupta et al ion parameters of monovalent ions for OPC3 water model (12-6 HFE set)
+MASS
+Li+  6.94
+Na+  22.99
+K+   39.10
+Rb+  85.47
+Cs+  132.91
+Tl+  204.38
+Cu+  63.55
+Ag+  107.87
+F-   19.00
+Cl-  35.45
+Br-  79.90
+I-   126.9
+
+NONBON
+Li+   1.270  0.00325650    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Na+   1.469  0.03012160    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol) 
+K+    1.703  0.14021803    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Rb+   1.800  0.21312875    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cs+   1.965  0.35762995    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Tl+   1.682  0.12628793	   HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cu+   1.201  0.00112300    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Ag+   1.335  0.00761745    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+F-    1.818  0.22795460    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Cl-   2.306  0.64226672    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+Br-   2.501  0.76074098    HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+I-    2.780  0.87175814	   HFE set for OPC3 water from Sengupta et al., JCIM, 2021, 61, 2, 869-880 ; R_min/2 (A), epsilon (kcal/mol)
+

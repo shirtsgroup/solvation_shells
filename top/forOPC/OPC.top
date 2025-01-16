@@ -1,0 +1,8 @@
+#include "OPC.itp"
+
+[ system ]
+water box
+
+[ molecules ]
+; Compound        nmols
+SOL              1000

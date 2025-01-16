@@ -1,0 +1,5 @@
+HEADER    Chlorine ion
+COMPND
+SOURCE
+HETATM    1  Cl   CL     1       9.626   6.787  12.673
+END

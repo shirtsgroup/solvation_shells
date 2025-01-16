@@ -1,0 +1,8 @@
+#include "TIP4P-FB.itp"
+
+[ system ]
+water box
+
+[ molecules ]
+; Compound        nmols
+SOL              1000

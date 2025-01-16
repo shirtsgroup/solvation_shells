@@ -1,0 +1,5 @@
+HEADER    Sodium ion
+COMPND
+SOURCE
+HETATM    1  Na   NA     1       9.626   6.787  12.673
+END
