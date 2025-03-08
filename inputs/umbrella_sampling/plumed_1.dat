@@ -1,0 +1,10 @@
+# Example PLUMED input file for de-coordination of Na+
+
+ion: GROUP NDX_FILE=index.ndx NDX_GROUP=ion
+not_ion: GROUP NDX_FILE=index.ndx NDX_GROUP=not_ion
+n: COORDINATION GROUPA=ion GROUPB=not_ion SWITCH={Q REF=0.315 BETA=-21.497624558253246 LAMBDA=1 R_0=0.315}
+t: MATHEVAL ARG=n FUNC=1001-x PERIODIC=NO
+
+r: RESTRAINT ARG=t KAPPA=100.0 AT=1.5333333333333332 # apply a harmonic restraint at CN=AT with force constant = KAPPA kJ/mol
+
+PRINT STRIDE=10 ARG=* FILE=COLVAR_1

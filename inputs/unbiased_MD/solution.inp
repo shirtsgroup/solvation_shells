@@ -1,0 +1,39 @@
+# Example Packmol input for an NaCl solution at infinite dilution
+#
+# A mixture of water and NaCl
+#
+
+# All the atoms from diferent molecules will be separated at least 2.0
+# Anstroms at the solution.
+
+seed 124235
+tolerance 2.0
+
+# The file type of input and output files is PDB
+
+filetype pdb
+
+# The name of the output file
+
+output solution.pdb
+
+# 1000 water molecules and 1 Na, 1 Cl will be put in a box
+# defined by the minimum coordinates x, y and z = 0. 0. 0. and maximum
+# coordinates 32. 32. 32. That is, they will be put in a cube of side
+# 32 Angstroms. (the keyword "inside cube 0. 0. 0. 32.") could be used as well.
+
+structure water.pdb 
+  number 1000 
+  inside box 0. 0. 0. 32. 32. 32. 
+end structure
+
+structure Na.pdb
+  number 1
+  inside box 0. 0. 0. 32. 32. 32. 
+end structure
+
+structure Cl.pdb
+  number 1
+  inside box 0. 0. 0. 32. 32. 32. 
+end structure
+
