@@ -1,0 +1,1697 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+cuda/11.1.1:
+   Warning - This module has been deprecated and is scheduled for removal.
+   Please transition to a module from the production pool instead.
+
+-------------------------------------------------------------------------------
+
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.10.0-dev (git: ae54bc52a) compiled on Oct 23 2023 at 18:31:47
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /jet/home/schwinns/src/plumed2/
+PLUMED: For installed feature, see /jet/home/schwinns/src/plumed2//src/config/config.txt
+PLUMED: Molecular dynamics engine: driver
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 3002
+PLUMED: File suffix: 
+PLUMED: FILE: plumed.dat
+PLUMED: Action GROUP
+PLUMED:   with label water_group
+PLUMED:   list of atoms:
+PLUMED:  1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 55 58 61 64 67 70 73
+PLUMED:  76 79 82 85 88 91 94 97 100 103 106 109 112 115 118 121 124 127 130 133 136 139 142 145 148
+PLUMED:  151 154 157 160 163 166 169 172 175 178 181 184 187 190 193 196 199 202 205 208 211 214 217 220 223
+PLUMED:  226 229 232 235 238 241 244 247 250 253 256 259 262 265 268 271 274 277 280 283 286 289 292 295 298
+PLUMED:  301 304 307 310 313 316 319 322 325 328 331 334 337 340 343 346 349 352 355 358 361 364 367 370 373
+PLUMED:  376 379 382 385 388 391 394 397 400 403 406 409 412 415 418 421 424 427 430 433 436 439 442 445 448
+PLUMED:  451 454 457 460 463 466 469 472 475 478 481 484 487 490 493 496 499 502 505 508 511 514 517 520 523
+PLUMED:  526 529 532 535 538 541 544 547 550 553 556 559 562 565 568 571 574 577 580 583 586 589 592 595 598
+PLUMED:  601 604 607 610 613 616 619 622 625 628 631 634 637 640 643 646 649 652 655 658 661 664 667 670 673
+PLUMED:  676 679 682 685 688 691 694 697 700 703 706 709 712 715 718 721 724 727 730 733 736 739 742 745 748
+PLUMED:  751 754 757 760 763 766 769 772 775 778 781 784 787 790 793 796 799 802 805 808 811 814 817 820 823
+PLUMED:  826 829 832 835 838 841 844 847 850 853 856 859 862 865 868 871 874 877 880 883 886 889 892 895 898
+PLUMED:  901 904 907 910 913 916 919 922 925 928 931 934 937 940 943 946 949 952 955 958 961 964 967 970 973
+PLUMED:  976 979 982 985 988 991 994 997 1000 1003 1006 1009 1012 1015 1018 1021 1024 1027 1030 1033 1036 1039 1042 1045 1048
+PLUMED:  1051 1054 1057 1060 1063 1066 1069 1072 1075 1078 1081 1084 1087 1090 1093 1096 1099 1102 1105 1108 1111 1114 1117 1120 1123
+PLUMED:  1126 1129 1132 1135 1138 1141 1144 1147 1150 1153 1156 1159 1162 1165 1168 1171 1174 1177 1180 1183 1186 1189 1192 1195 1198
+PLUMED:  1201 1204 1207 1210 1213 1216 1219 1222 1225 1228 1231 1234 1237 1240 1243 1246 1249 1252 1255 1258 1261 1264 1267 1270 1273
+PLUMED:  1276 1279 1282 1285 1288 1291 1294 1297 1300 1303 1306 1309 1312 1315 1318 1321 1324 1327 1330 1333 1336 1339 1342 1345 1348
+PLUMED:  1351 1354 1357 1360 1363 1366 1369 1372 1375 1378 1381 1384 1387 1390 1393 1396 1399 1402 1405 1408 1411 1414 1417 1420 1423
+PLUMED:  1426 1429 1432 1435 1438 1441 1444 1447 1450 1453 1456 1459 1462 1465 1468 1471 1474 1477 1480 1483 1486 1489 1492 1495 1498
+PLUMED:  1501 1504 1507 1510 1513 1516 1519 1522 1525 1528 1531 1534 1537 1540 1543 1546 1549 1552 1555 1558 1561 1564 1567 1570 1573
+PLUMED:  1576 1579 1582 1585 1588 1591 1594 1597 1600 1603 1606 1609 1612 1615 1618 1621 1624 1627 1630 1633 1636 1639 1642 1645 1648
+PLUMED:  1651 1654 1657 1660 1663 1666 1669 1672 1675 1678 1681 1684 1687 1690 1693 1696 1699 1702 1705 1708 1711 1714 1717 1720 1723
+PLUMED:  1726 1729 1732 1735 1738 1741 1744 1747 1750 1753 1756 1759 1762 1765 1768 1771 1774 1777 1780 1783 1786 1789 1792 1795 1798
+PLUMED:  1801 1804 1807 1810 1813 1816 1819 1822 1825 1828 1831 1834 1837 1840 1843 1846 1849 1852 1855 1858 1861 1864 1867 1870 1873
+PLUMED:  1876 1879 1882 1885 1888 1891 1894 1897 1900 1903 1906 1909 1912 1915 1918 1921 1924 1927 1930 1933 1936 1939 1942 1945 1948
+PLUMED:  1951 1954 1957 1960 1963 1966 1969 1972 1975 1978 1981 1984 1987 1990 1993 1996 1999 2002 2005 2008 2011 2014 2017 2020 2023
+PLUMED:  2026 2029 2032 2035 2038 2041 2044 2047 2050 2053 2056 2059 2062 2065 2068 2071 2074 2077 2080 2083 2086 2089 2092 2095 2098
+PLUMED:  2101 2104 2107 2110 2113 2116 2119 2122 2125 2128 2131 2134 2137 2140 2143 2146 2149 2152 2155 2158 2161 2164 2167 2170 2173
+PLUMED:  2176 2179 2182 2185 2188 2191 2194 2197 2200 2203 2206 2209 2212 2215 2218 2221 2224 2227 2230 2233 2236 2239 2242 2245 2248
+PLUMED:  2251 2254 2257 2260 2263 2266 2269 2272 2275 2278 2281 2284 2287 2290 2293 2296 2299 2302 2305 2308 2311 2314 2317 2320 2323
+PLUMED:  2326 2329 2332 2335 2338 2341 2344 2347 2350 2353 2356 2359 2362 2365 2368 2371 2374 2377 2380 2383 2386 2389 2392 2395 2398
+PLUMED:  2401 2404 2407 2410 2413 2416 2419 2422 2425 2428 2431 2434 2437 2440 2443 2446 2449 2452 2455 2458 2461 2464 2467 2470 2473
+PLUMED:  2476 2479 2482 2485 2488 2491 2494 2497 2500 2503 2506 2509 2512 2515 2518 2521 2524 2527 2530 2533 2536 2539 2542 2545 2548
+PLUMED:  2551 2554 2557 2560 2563 2566 2569 2572 2575 2578 2581 2584 2587 2590 2593 2596 2599 2602 2605 2608 2611 2614 2617 2620 2623
+PLUMED:  2626 2629 2632 2635 2638 2641 2644 2647 2650 2653 2656 2659 2662 2665 2668 2671 2674 2677 2680 2683 2686 2689 2692 2695 2698
+PLUMED:  2701 2704 2707 2710 2713 2716 2719 2722 2725 2728 2731 2734 2737 2740 2743 2746 2749 2752 2755 2758 2761 2764 2767 2770 2773
+PLUMED:  2776 2779 2782 2785 2788 2791 2794 2797 2800 2803 2806 2809 2812 2815 2818 2821 2824 2827 2830 2833 2836 2839 2842 2845 2848
+PLUMED:  2851 2854 2857 2860 2863 2866 2869 2872 2875 2878 2881 2884 2887 2890 2893 2896 2899 2902 2905 2908 2911 2914 2917 2920 2923
+PLUMED:  2926 2929 2932 2935 2938 2941 2944 2947 2950 2953 2956 2959 2962 2965 2968 2971 2974 2977 2980 2983 2986 2989 2992 2995 2998
+PLUMED: Action COORDINATION
+PLUMED:   with label n
+PLUMED:   between two groups of 1 and 1000 atoms
+PLUMED:   first group:
+PLUMED:   3001  
+PLUMED:   second group:
+PLUMED:   1  4  7  10  13  16  19  22  25  28  31  34  37  40  43  46  49  52  55  58  61  64  67  70  
+PLUMED:   73  76  79  82  85  88  91  94  97  100  103  106  109  112  115  118  121  124  127  130  133  136  139  142  145  
+PLUMED:   148  151  154  157  160  163  166  169  172  175  178  181  184  187  190  193  196  199  202  205  208  211  214  217  220  
+PLUMED:   223  226  229  232  235  238  241  244  247  250  253  256  259  262  265  268  271  274  277  280  283  286  289  292  295  
+PLUMED:   298  301  304  307  310  313  316  319  322  325  328  331  334  337  340  343  346  349  352  355  358  361  364  367  370  
+PLUMED:   373  376  379  382  385  388  391  394  397  400  403  406  409  412  415  418  421  424  427  430  433  436  439  442  445  
+PLUMED:   448  451  454  457  460  463  466  469  472  475  478  481  484  487  490  493  496  499  502  505  508  511  514  517  520  
+PLUMED:   523  526  529  532  535  538  541  544  547  550  553  556  559  562  565  568  571  574  577  580  583  586  589  592  595  
+PLUMED:   598  601  604  607  610  613  616  619  622  625  628  631  634  637  640  643  646  649  652  655  658  661  664  667  670  
+PLUMED:   673  676  679  682  685  688  691  694  697  700  703  706  709  712  715  718  721  724  727  730  733  736  739  742  745  
+PLUMED:   748  751  754  757  760  763  766  769  772  775  778  781  784  787  790  793  796  799  802  805  808  811  814  817  820  
+PLUMED:   823  826  829  832  835  838  841  844  847  850  853  856  859  862  865  868  871  874  877  880  883  886  889  892  895  
+PLUMED:   898  901  904  907  910  913  916  919  922  925  928  931  934  937  940  943  946  949  952  955  958  961  964  967  970  
+PLUMED:   973  976  979  982  985  988  991  994  997  1000  1003  1006  1009  1012  1015  1018  1021  1024  1027  1030  1033  1036  1039  1042  1045  
+PLUMED:   1048  1051  1054  1057  1060  1063  1066  1069  1072  1075  1078  1081  1084  1087  1090  1093  1096  1099  1102  1105  1108  1111  1114  1117  1120  
+PLUMED:   1123  1126  1129  1132  1135  1138  1141  1144  1147  1150  1153  1156  1159  1162  1165  1168  1171  1174  1177  1180  1183  1186  1189  1192  1195  
+PLUMED:   1198  1201  1204  1207  1210  1213  1216  1219  1222  1225  1228  1231  1234  1237  1240  1243  1246  1249  1252  1255  1258  1261  1264  1267  1270  
+PLUMED:   1273  1276  1279  1282  1285  1288  1291  1294  1297  1300  1303  1306  1309  1312  1315  1318  1321  1324  1327  1330  1333  1336  1339  1342  1345  
+PLUMED:   1348  1351  1354  1357  1360  1363  1366  1369  1372  1375  1378  1381  1384  1387  1390  1393  1396  1399  1402  1405  1408  1411  1414  1417  1420  
+PLUMED:   1423  1426  1429  1432  1435  1438  1441  1444  1447  1450  1453  1456  1459  1462  1465  1468  1471  1474  1477  1480  1483  1486  1489  1492  1495  
+PLUMED:   1498  1501  1504  1507  1510  1513  1516  1519  1522  1525  1528  1531  1534  1537  1540  1543  1546  1549  1552  1555  1558  1561  1564  1567  1570  
+PLUMED:   1573  1576  1579  1582  1585  1588  1591  1594  1597  1600  1603  1606  1609  1612  1615  1618  1621  1624  1627  1630  1633  1636  1639  1642  1645  
+PLUMED:   1648  1651  1654  1657  1660  1663  1666  1669  1672  1675  1678  1681  1684  1687  1690  1693  1696  1699  1702  1705  1708  1711  1714  1717  1720  
+PLUMED:   1723  1726  1729  1732  1735  1738  1741  1744  1747  1750  1753  1756  1759  1762  1765  1768  1771  1774  1777  1780  1783  1786  1789  1792  1795  
+PLUMED:   1798  1801  1804  1807  1810  1813  1816  1819  1822  1825  1828  1831  1834  1837  1840  1843  1846  1849  1852  1855  1858  1861  1864  1867  1870  
+PLUMED:   1873  1876  1879  1882  1885  1888  1891  1894  1897  1900  1903  1906  1909  1912  1915  1918  1921  1924  1927  1930  1933  1936  1939  1942  1945  
+PLUMED:   1948  1951  1954  1957  1960  1963  1966  1969  1972  1975  1978  1981  1984  1987  1990  1993  1996  1999  2002  2005  2008  2011  2014  2017  2020  
+PLUMED:   2023  2026  2029  2032  2035  2038  2041  2044  2047  2050  2053  2056  2059  2062  2065  2068  2071  2074  2077  2080  2083  2086  2089  2092  2095  
+PLUMED:   2098  2101  2104  2107  2110  2113  2116  2119  2122  2125  2128  2131  2134  2137  2140  2143  2146  2149  2152  2155  2158  2161  2164  2167  2170  
+PLUMED:   2173  2176  2179  2182  2185  2188  2191  2194  2197  2200  2203  2206  2209  2212  2215  2218  2221  2224  2227  2230  2233  2236  2239  2242  2245  
+PLUMED:   2248  2251  2254  2257  2260  2263  2266  2269  2272  2275  2278  2281  2284  2287  2290  2293  2296  2299  2302  2305  2308  2311  2314  2317  2320  
+PLUMED:   2323  2326  2329  2332  2335  2338  2341  2344  2347  2350  2353  2356  2359  2362  2365  2368  2371  2374  2377  2380  2383  2386  2389  2392  2395  
+PLUMED:   2398  2401  2404  2407  2410  2413  2416  2419  2422  2425  2428  2431  2434  2437  2440  2443  2446  2449  2452  2455  2458  2461  2464  2467  2470  
+PLUMED:   2473  2476  2479  2482  2485  2488  2491  2494  2497  2500  2503  2506  2509  2512  2515  2518  2521  2524  2527  2530  2533  2536  2539  2542  2545  
+PLUMED:   2548  2551  2554  2557  2560  2563  2566  2569  2572  2575  2578  2581  2584  2587  2590  2593  2596  2599  2602  2605  2608  2611  2614  2617  2620  
+PLUMED:   2623  2626  2629  2632  2635  2638  2641  2644  2647  2650  2653  2656  2659  2662  2665  2668  2671  2674  2677  2680  2683  2686  2689  2692  2695  
+PLUMED:   2698  2701  2704  2707  2710  2713  2716  2719  2722  2725  2728  2731  2734  2737  2740  2743  2746  2749  2752  2755  2758  2761  2764  2767  2770  
+PLUMED:   2773  2776  2779  2782  2785  2788  2791  2794  2797  2800  2803  2806  2809  2812  2815  2818  2821  2824  2827  2830  2833  2836  2839  2842  2845  
+PLUMED:   2848  2851  2854  2857  2860  2863  2866  2869  2872  2875  2878  2881  2884  2887  2890  2893  2896  2899  2902  2905  2908  2911  2914  2917  2920  
+PLUMED:   2923  2926  2929  2932  2935  2938  2941  2944  2947  2950  2953  2956  2959  2962  2965  2968  2971  2974  2977  2980  2983  2986  2989  2992  2995  
+PLUMED:   2998  
+PLUMED:   using periodic boundary conditions
+PLUMED:   contacts are counted with cutoff 0.315.  Using nativeq switching function with parameters d0=0 beta=-21.4976 lambda=1 ref=0.315
+PLUMED: Action MATHEVAL
+PLUMED:   with label t
+PLUMED:   with arguments n
+PLUMED:   with function : 1000-x
+PLUMED:   with variables : x
+PLUMED:   function as parsed by lepton: (1000)-(x)
+PLUMED:   derivatives as computed by lepton:
+PLUMED:     -1
+PLUMED: Action RESTRAINT
+PLUMED:   with label r
+PLUMED:   with arguments t
+PLUMED:   added component to this action:  r.bias 
+PLUMED:   at 6.000000
+PLUMED:   with harmonic force constant 100.000000
+PLUMED:   and linear force constant 0.000000
+PLUMED:   added component to this action:  r.force2 
+PLUMED: Action PRINT
+PLUMED:   with label @4
+PLUMED:   with stride 1
+PLUMED:   with arguments n t r.bias r.force2
+PLUMED:   on file COLVAR
+PLUMED:   with format  %f
+PLUMED: END FILE: plumed.dat
+PLUMED: Timestep: 1.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     0.017367     0.017367     0.017367     0.017367
+PLUMED: 1 Prepare dependencies                             1     0.000209     0.000209     0.000209     0.000209
+PLUMED: 2 Sharing data                                     1     0.000331     0.000331     0.000331     0.000331
+PLUMED: 3 Waiting for data                                 1     0.000011     0.000011     0.000011     0.000011
+PLUMED: 4 Calculating (forward loop)                       1     0.000529     0.000529     0.000529     0.000529
+PLUMED: 5 Applying (backward loop)                         1     0.000035     0.000035     0.000035     0.000035
+PLUMED: 6 Update                                           1     0.000614     0.000614     0.000614     0.000614
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c ../prod.gro -o prod_9.tpr
+
+Setting the LD random seed to -738232353
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 458 and 459
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "In practice, throwing traditional norms and values overboard results not in perfect freedom and relationships based on reason, but in chaos and fear" (Paul Verhaeghe)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_9.tpr -deffnm prod_9 -plumed plumed_9.dat
+
+Reading file prod_9.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.124
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 5.4%.
+ The balanceable part of the MD step is 46%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.4%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      523.913       32.745     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      263.863        0.091
+
+GROMACS reminds you: ""A slow sort of country!" said the Queen. "Now, HERE, you see, it takes all the running YOU can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!"" (Lewis Carroll)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_9.gro -o prod_8.tpr
+
+Setting the LD random seed to -1082704131
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 344 and 345
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+There was 1 NOTE
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+GROMACS reminds you: ""A slow sort of country!" said the Queen. "Now, HERE, you see, it takes all the running YOU can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!"" (Lewis Carroll)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_8.tpr -deffnm prod_8 -plumed plumed_8.dat
+
+Reading file prod_8.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.3%.
+ The balanceable part of the MD step is 43%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.7%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      523.737       32.734     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      263.952        0.091
+
+GROMACS reminds you: "I admired Bohr very much. We had long talks together, long talks in which Bohr did practically all the talking." (Paul Dirac)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_8.gro -o prod_7.tpr
+
+Setting the LD random seed to 1533788143
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 506 and 507
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "I admired Bohr very much. We had long talks together, long talks in which Bohr did practically all the talking." (Paul Dirac)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_7.tpr -deffnm prod_7 -plumed plumed_7.dat
+
+Reading file prod_7.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.2%.
+ The balanceable part of the MD step is 42%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.6%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      544.726       34.046     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      253.782        0.095
+
+GROMACS reminds you: "One Cross Each" (Monty Python)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_7.gro -o prod_6.tpr
+
+Setting the LD random seed to -457179522
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 non-bonded parameter combinations
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 1358 and 1359
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "One Cross Each" (Monty Python)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_6.tpr -deffnm prod_6 -plumed plumed_6.dat
+
+Reading file prod_6.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 5.3%.
+ The balanceable part of the MD step is 46%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.4%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      507.427       31.715     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      272.436        0.088
+
+GROMACS reminds you: "Bailed Out Of Edge Synchronization After 10,000 Iterations" (X/Motif)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_6.gro -o prod_5.tpr
+
+Setting the LD random seed to -1284573201
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 1613 and 1614
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "Bailed Out Of Edge Synchronization After 10,000 Iterations" (X/Motif)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_5.tpr -deffnm prod_5 -plumed plumed_5.dat
+
+Reading file prod_5.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.124
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.1%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.8%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      511.212       31.951     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      270.419        0.089
+
+GROMACS reminds you: "A C program is like a fast dance on a newly waxed dance floor by people carrying razors." (Waldi Ravens)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_5.gro -o prod_4.tpr
+
+Setting the LD random seed to -1006634277
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 2426 and 2427
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "A C program is like a fast dance on a newly waxed dance floor by people carrying razors." (Waldi Ravens)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_4.tpr -deffnm prod_4 -plumed plumed_4.dat
+
+Reading file prod_4.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.4%.
+ The balanceable part of the MD step is 44%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.8%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      518.847       32.428     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      266.440        0.090
+
+GROMACS reminds you: "I will not be a lemming and follow the crowd over the cliff and into the C." (John Beidler)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_4.gro -o prod_3.tpr
+
+Setting the LD random seed to -134362131
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 431 and 432
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.102 nm, buffer size 0.102 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "I will not be a lemming and follow the crowd over the cliff and into the C." (John Beidler)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_3.tpr -deffnm prod_3 -plumed plumed_3.dat
+
+Reading file prod_3.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.102 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 5.3%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.4%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      520.427       32.527     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      265.630        0.090
+
+GROMACS reminds you: "California, R.I.P." (Red Hot Chili Peppars)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_3.gro -o prod_2.tpr
+
+Setting the LD random seed to -1076179042
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 1811 and 1812
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.217 nm, buffer size 0.217 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.104 nm, buffer size 0.104 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "FORTRAN was the language of choice for the same reason that three-legged races are popular." (Ken Thompson)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_2.tpr -deffnm prod_2 -plumed plumed_2.dat
+
+Reading file prod_2.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.104 to 1.124
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 5.7%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      525.293       32.831     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      263.170        0.091
+
+GROMACS reminds you: "A real scientist solves problems, not wails that they are unsolvable." (Anne McCaffrey)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_2.gro -o prod_1.tpr
+
+Setting the LD random seed to -411566132
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 53 and 54
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.215 nm, buffer size 0.215 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.102 nm, buffer size 0.102 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.112 0.112 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.32
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "A real scientist solves problems, not wails that they are unsolvable." (Anne McCaffrey)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_1.tpr -deffnm prod_1 -plumed plumed_1.dat
+
+Reading file prod_1.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.102 to 1.122
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.0%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.7%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      537.517       33.595     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      257.185        0.093
+
+GROMACS reminds you: "The public have an insatiable curiosity to know everything, except what is worth knowing." (Oscar Wilde)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_1.gro -o prod_0.tpr
+
+Setting the LD random seed to -136467905
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 2399 and 2400
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.215 nm, buffer size 0.215 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.102 nm, buffer size 0.102 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.112 0.112 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.32
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "Keep Your Shoes and Socks On, People" (F. Zappa)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_0.tpr -deffnm prod_0 -plumed plumed_0.dat
+
+Reading file prod_0.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.102 to 1.122
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 5.7%.
+ The balanceable part of the MD step is 44%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      531.625       33.227     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      260.035        0.092
+
+GROMACS reminds you: "They don't have any beavers in India, so they have to simulate them" (The Tubes)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c ../prod.gro -o prod_10.tpr
+
+Setting the LD random seed to -184689671
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 458 and 459
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "They don't have any beavers in India, so they have to simulate them" (The Tubes)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_10.tpr -deffnm prod_10 -plumed plumed_10.dat
+
+Reading file prod_10.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.124
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 5.5%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      528.539       33.034     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      261.554        0.092
+
+GROMACS reminds you: "You are wrong!" (NOFX)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_10.gro -o prod_11.tpr
+
+Setting the LD random seed to -545284353
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 2501 and 2502
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.102 nm, buffer size 0.102 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "You are wrong!" (NOFX)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_11.tpr -deffnm prod_11 -plumed plumed_11.dat
+
+Reading file prod_11.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.102 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 5.9%.
+ The balanceable part of the MD step is 45%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.7%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      515.781       32.237     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      268.024        0.090
+
+GROMACS reminds you: "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest." (Confucius)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_11.gro -o prod_12.tpr
+
+Setting the LD random seed to -1861645
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 2654 and 2655
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.215 nm, buffer size 0.215 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.102 nm, buffer size 0.102 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.112 0.112 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.32
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest." (Confucius)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_12.tpr -deffnm prod_12 -plumed plumed_12.dat
+
+Reading file prod_12.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.102 to 1.122
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 5.8%.
+ The balanceable part of the MD step is 43%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      520.772       32.549     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      265.455        0.090
+
+GROMACS reminds you: "Why would the backup server database get corrupted anyway?" (Stefan Fleischmann -- system administrator, physicist, optimist.)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_12.gro -o prod_13.tpr
+
+Setting the LD random seed to -1073838369
+
+Generated 105 of the 105 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 494 and 495
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.216 nm, buffer size 0.216 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.103 nm, buffer size 0.103 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "Why would the backup server database get corrupted anyway?" (Stefan Fleischmann -- system administrator, physicist, optimist.)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_13.tpr -deffnm prod_13 -plumed plumed_13.dat
+
+Reading file prod_13.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.103 to 1.123
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB got disabled because it was unsuitable to use.
+ Average load imbalance: 6.0%.
+ The balanceable part of the MD step is 46%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.7%.
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      520.441       32.528     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      265.624        0.090
+
+GROMACS reminds you: "Some of these pro-drug messages come from popular culture." (John Walters)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_13.gro -o prod_14.tpr
+
+Setting the LD random seed to -1079050306
+Generating 1-4 interactions: fudge = 0.5
+
+Generated 105 of the 105 non-bonded parameter combinations
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+The largest distance between excluded atoms is 0.161 nm between atom 1406 and 1407
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.217 nm, buffer size 0.217 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.104 nm, buffer size 0.104 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.31
+
+This run will generate roughly 3 Mb of data
+
+There was 1 NOTE
+
+GROMACS reminds you: "#define QUESTION ((bb),| !(bb))" (William Shakespeare)
+
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_14.tpr -deffnm prod_14 -plumed plumed_14.dat
+
+Reading file prod_14.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.104 to 1.124
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 5.5%.
+ The balanceable part of the MD step is 46%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      499.799       31.238     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      276.594        0.087
+
+GROMACS reminds you: "There was no preconception on what to do" (Daft Punk)
+
+             :-) GROMACS - gmx grompp, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi grompp -f increment.mdp -p solution.top -c prod_14.gro -o prod_15.tpr
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 6003.00
+
+NOTE 1 [file increment.mdp]:
+  You are using geometric combination rules in LJ-PME, but your non-bonded
+  C6 parameters do not follow these rules. This will introduce very small
+  errors in the forces and energies in your simulations. Dispersion
+  correction will correct total energy and/or pressure for isotropic
+  systems, but not forces or surface tensions.
+
+
+There was 1 NOTE
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Setting the LD random seed to 1837103775
+
+Generated 105 of the 105 non-bonded parameter combinations
+
+Generated 105 of the 105 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:  1000      Water residues
+There are:     2        Ion residues
+
+The largest distance between excluded atoms is 0.161 nm between atom 2186 and 2187
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.215 nm, buffer size 0.215 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.101 nm, buffer size 0.101 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.112 0.112 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.32
+
+This run will generate roughly 3 Mb of data
+             :-) GROMACS - gmx mdrun, 2023.1-plumed_2.10.0_dev (-:
+
+Executable:   /jet/home/schwinns/pkgs/gromacs-plumed/bin/gmx_mpi
+Data prefix:  /jet/home/schwinns/pkgs/gromacs-plumed
+Working dir:  /ocean/projects/chm230020p/schwinns/Projects/solvation_shells/NaCl_equilibrium/OPC3/Sengupta_etal/C0.055M/P1bar/get_initial_configs
+Command line:
+  gmx_mpi mdrun -s prod_15.tpr -deffnm prod_15 -plumed plumed_15.dat
+
+Reading file prod_15.tpr, VERSION 2023.1-plumed_2.10.0_dev (single precision)
+Changing nstlist from 40 to 50, rlist from 1.101 to 1.122
+
+Using 16 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+starting mdrun 'water and NaCl'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+
+Dynamic load balancing report:
+ DLB was turned on during the run due to measured imbalance.
+ Average load imbalance: 5.4%.
+ The balanceable part of the MD step is 47%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 2.5%.
+ Steps where the load balancing was limited by -rdd, -rcon and/or -dds: X 0 % Y 0 %
+
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      508.378       31.774     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      271.926        0.088
+
+GROMACS reminds you: "Sitting on a rooftop watching molecules collide" (A Camp)
+
+CN at the end of equilibrium = 6.028154

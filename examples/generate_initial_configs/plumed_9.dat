@@ -1,0 +1,7 @@
+water_group: GROUP ATOMS=1-3000:3   # oxygen atom of the water molecules
+n: COORDINATION GROUPA=3001 GROUPB=water_group SWITCH={Q REF=0.315 BETA=-21.497624558253246 LAMBDA=1 R_0=0.315}
+t: MATHEVAL ARG=n FUNC=1000-x PERIODIC=NO
+
+r: RESTRAINT ARG=t KAPPA=100 AT=5.8 # apply a harmonic restraint at CN=AT with force constant = KAPPA kJ/mol
+
+PRINT STRIDE=1 ARG=* FILE=COLVAR_9

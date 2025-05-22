@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -A chm230020p
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=16
+#SBATCH -t 03:00:00
+#SBATCH -p RM-shared
+#SBATCH -J 'initial_configs_NaCl_OPC3'
+#SBATCH -o '%x.out'
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=nasc4134@colorado.edu
+
+module load gcc
+module load openmpi
+
+source /jet/home/schwinns/.bashrc
+source /jet/home/schwinns/pkgs/gromacs-plumed/bin/GMXRC
+
+# generate initial configurations by incrementally going through umbrellas
+python generate_initial_configs.py

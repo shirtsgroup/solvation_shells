@@ -1,3 +1,5 @@
+*.xtc filter=lfs diff=lfs merge=lfs -text
 COLVAR* filter=lfs diff=lfs merge=lfs -text
+*.pl filter=lfs diff=lfs merge=lfs -text
 *xtc filter=lfs diff=lfs merge=lfs -text
 *pl filter=lfs diff=lfs merge=lfs -text
