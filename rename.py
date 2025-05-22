@@ -1,6 +1,6 @@
 # rename prod_* to init_*
 
-from utils.gromacs_utils import run
+from solvation_shells.utils.gromacs_utils import run
 
 exts = ['cpt', 'edr', 'gro', 'log', 'xtc']
 

@@ -518,6 +518,90 @@ class UmbrellaAnalysis:
         return bin_center_i, res['f_i'], res['df_i']
     
 
+    def get_decoordination_energy_error(self, discrete_FE):
+        '''
+        Calculate the bootstrapped error for the de-coordination free energies. The de-coordination energies
+        are the sequential differences between dG(CN). Perform the differences within the bootstrap, so you 
+        get an estimate of the 1st and 2nd de-coordination free energy for every bootstrap. This is possible 
+        by accessing the `histogram_datas` attribute in the pymbar.FES object. As a result, this method
+        requires that UmbrellaAnalysis.calculate_discrete_FE() to be complete.
+        
+        For example, for Na+ whose minimum-energy coordination number is 6,
+        the first de-coordination free energy is dG(CN = 5) - dG(CN = 6), and the second de-coordination 
+        free energy is dG(CN = 4) - dG(CN = 5).
+        
+        The bootstrapped error is standard deviation across the bootstrapped samples.
+        
+        Parameters
+        ----------
+        discrete_FE : MDAnalysis.analysis.base.Results
+            MDAnalysis Results class from the UmbrellaAnalysis.calculate_discrete_FE() call. Should have the
+            attributes `coordination_number`, `free_energy`, and `error`.
+
+        Returns
+        -------
+        dG : np.ndarray, shape=(2,)
+            First 2 de-coordination free energies. Note: the bootstrapped data are in self.dG_boot
+        dG_err : np.ndarray, shape=(2,)
+            The bootstrapped error in the first 2 de-coordination free energies. 
+
+        '''
+
+        # get some variables from the pymbar.FES object
+        fes = self._fes
+        x = discrete_FE.coordination_number.reshape(-1,1)
+        bins = fes.histogram_data['bins']
+        loc_indices = np.digitize(x, bins[0]) - 1
+        n_bootstraps = len(fes.histogram_datas)
+
+        h = fes.histogram_data
+        j = h['f'].argmin()
+        f_i = h['f'] - h['f'][j]
+
+        # build a mapping file to get the index of the free energy that corresponds to a given CN
+        x_map = {}
+        for i,l in enumerate(loc_indices):
+            bin_label = h['bin_label'][tuple(l)]
+            bin_order = h['bin_order'][bin_label]
+            x_map[x[i][0]] = bin_order
+            if bin_order == j: # save which CN is the minimum free energy
+                x_min = x[i][0]
+
+        # get the CN of 1st and 2nd de-coordination
+        x_1st = x_min - 1
+        x_2nd = x_min - 2
+
+        if x_2nd not in x_map.keys():
+                raise ValueError(f'We do not have data for the 2nd de-coordination (CN = {x_2nd}). The lowest CN is {min(x_map.keys())}.')
+        
+        # calculate the 1st and 2nd de-coordination free energies
+        f_x_min = f_i[x_map[x_min]] # will be zero for `from-lowest`
+        f_x_1st = f_i[x_map[x_1st]]
+        f_x_2nd = f_i[x_map[x_2nd]]
+
+        dG = np.zeros(2)
+        dG[0] = (f_x_1st - f_x_min)*self.kT # kJ/mol
+        dG[1] = (f_x_2nd - f_x_1st)*self.kT
+
+        # now calculate the uncertainties
+        self.dG_boot = np.zeros((2,n_bootstraps))
+        for b in range(n_bootstraps):
+            f_boot = fes.histogram_datas[b]['f'] - fes.histogram_datas[b]['f'][j]
+
+            # get the free energies for those CN
+            f_x_min = f_boot[x_map[x_min]] # will be zero for `from-lowest`
+            f_x_1st = f_boot[x_map[x_1st]]
+            f_x_2nd = f_boot[x_map[x_2nd]]
+
+            # calculate the 1st and 2nd de-coordination free energies for this bootstrap
+            self.dG_boot[0,b] = (f_x_1st - f_x_min)*self.kT # kJ/mol
+            self.dG_boot[1,b] = (f_x_2nd - f_x_1st)*self.kT
+
+        dG_err = np.std(self.dG_boot, axis=1)
+
+        return dG, dG_err
+    
+
     def show_overlap(self):
         '''
         Compute the overlap matrix and plot as a heatmap
