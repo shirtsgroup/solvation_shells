@@ -2,7 +2,7 @@
 
 import subprocess
 
-def run(commands : (list, str)):
+def run(commands: list[str] | str):
     '''Run commands with subprocess'''
     if not isinstance(commands, list):
         commands = [commands]
